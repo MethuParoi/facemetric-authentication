@@ -27,21 +27,20 @@ This Docker image provides a web-based face authentication server built with Pyt
 
 ## Usage
 
-1. **Visit the DockerHub Repository:** ["https://hub.docker.com/repository/docker/muhitkhan/facemetric-authentication/"](https://hub.docker.com/repository/docker/muhitkhan/facemetric-authentication/)
 
-2. **Pull the Docker image:**
-
-```bash
-docker image pull muhitkhan/facemetric-authentication:tagname
-```
-
-3. **Run the container:**
+1. **Pull the Docker image:**
 
 ```bash
-docker run -it -p 5000:5000 muhitkhan/facemetric-authentication:tagname
+docker image pull methuparoi/facemetric-authentication:tagname
 ```
 
-4. **Access the API:**
+2. **Run the container:**
+
+```bash
+docker run -it -p 5000:5000 methuparoi/facemetric-authentication:tagname
+```
+
+3. **Access the API:**
 
 - Send a POST request to `http://localhost:5000/compare` with the following parameters:
 - `reference_image`: The reference image file.
@@ -87,7 +86,7 @@ _Note: Make sure your Facemetric Authentication server is running and accessible
 
 ## Developer Credit
 
-Developed with love by [MUHIT KHAN](https://linkedin.com/in/muhit-khan)
+Developed with love by [METHU PAROI](https://linkedin.com/in/methu-paroi)
 
 ## Additional Notes
 
